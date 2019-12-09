@@ -1,7 +1,10 @@
-package com.example.videojuegos.controller;
+package com.example.videojuegos.domain;
 
-public class videojuego {
+public class Videojuego {
+
     private String nombre;
+    private String descripcion;
+    private String imagenUrl;
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -26,6 +29,5 @@ public class videojuego {
     public String getImagenUrl() {
         return imagenUrl;
     }
-    private String descripcion;
-    private String imagenUrl; 
+
 }
