@@ -1,6 +1,11 @@
 {
     "elements": {},
     "attributes": {
-        "integrity": {}
+        "th:text": {},
+        "integrity": {},
+        "th:src": {
+            "context": "img"
+        },
+        "th:each": {}
     }
 }
